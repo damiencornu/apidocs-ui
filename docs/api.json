@@ -1,0 +1,14 @@
+{
+	"version":"1.0",
+	"basePath":"http://api.domaine.tl/v1",
+	"resources":[
+		{
+			"resource":"doc",
+			"json":"example.json"
+		},
+		{
+			"resource":"users",
+			"json":"your-resource-users.json"
+		}
+	]
+}

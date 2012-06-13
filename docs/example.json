@@ -1,0 +1,58 @@
+{
+	"version":"1.0",
+	"resource":"doc",
+	"endpoints":[
+		{
+			"endpoint":"example",
+			"httpMethod":"GET",
+			"description":"Example for the API Docs.",
+			"shortDecription":"Example",
+			"url":"http://api.domaine.tl/v1/doc/example",
+			"parameters":[
+				{
+					"parameter":"id",
+					"value":"(number)",
+					"description": "ID of the doc example"
+				}
+			]
+		},
+		{
+			"endpoint":"example/complex",
+			"httpMethod":"POST",
+			"description":"A example of the API Docs with more details in parameters.",
+			"shortDecription":"Complex example",
+			"url":"http://docs.domaine.tl/v1/doc/example/complex",
+			"parameters":[
+				{
+					"parameter":"id_example",
+					"value":123,
+					"description": "ID of the example"
+				},
+				{
+					"parameter":"id_author",
+					"value":"(number)",
+					"description": "ID of the author"
+				},
+				{
+					"parameter":"example",
+					"value":"(string)",
+					"description": "Text of the example"
+				}
+			]
+		},
+		{
+			"endpoint":"put",
+			"httpMethod":"PUT",
+			"description":"Example with the http_method PUT",
+			"shortDecription":"Example PUT",
+			"url":"http://api.domaine.tl/v1/doc/put"
+		},
+		{
+			"endpoint":"put",
+			"httpMethod":"DELETE",
+			"description":"Example with the http_method DELETE",
+			"shortDecription":"Example DELETE",
+			"url":"http://api.domaine.tl/v1/doc/delete"
+		}
+	]
+}
