@@ -1,4 +1,4 @@
-# API Docs
+# API-Docs UI
 
 ## Overview
 This will allow you to easily build your API documentation.
@@ -38,4 +38,9 @@ Usage is very simple. A master file to manage your resources (api.json) and then
 				]
 			}
 		]
-	}
+	} 
+
+- description (optional)
+- shortDecription (optional)
+- url (optional)
+- parameters (optional)
