@@ -7,7 +7,6 @@ This will allow you to easily build your API documentation.
 Usage is very simple. A master file to manage your resources (api.json) and then you add your resources independent.
 
 ### api.json
-	<pre>
 	{
 		"version":"1.0",
 		"basePath":"http://api.domaine.tl/v1",
@@ -18,4 +17,25 @@ Usage is very simple. A master file to manage your resources (api.json) and then
 			}
 		]
 	}
-	</pre>
+
+### example.json
+	{
+		"version":"1.0",
+		"resource":"doc",
+		"endpoints":[
+			{
+				"endpoint":"example",
+				"httpMethod":"GET",
+				"description":"Example for the API Docs.",
+				"shortDecription":"Example",
+				"url":"http://api.domaine.tl/v1/doc/example",
+				"parameters":[
+					{
+						"parameter":"id",
+						"value":"(number)",
+						"description": "ID of the doc example"
+					}
+				]
+			}
+		]
+	}
