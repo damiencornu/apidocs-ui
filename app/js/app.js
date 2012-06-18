@@ -5,7 +5,7 @@
  * Aymeric Gallissot
  * http://aymericgallissot.fr
  *
- * Idea original: swagger.wordnik.com 
+ * Original idea: swagger.wordnik.com 
  *
  */
 
